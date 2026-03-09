@@ -123,3 +123,29 @@ dist
 .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# dependencias
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# archivos de entorno
+.env
+.env.local
+
+# build
+dist/
+build/
+
+# sass cache
+.sass-cache/
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# vercel
+.vercel
