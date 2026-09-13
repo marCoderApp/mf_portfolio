@@ -64,7 +64,7 @@ const projects = [
     description:
       "Public blog Api with interactive documentation generated with OpenAPI/Swagger. Includes pagination, filters, and user role management.",
     longDescription:
-      "A clean REST API for a blogging platform, designed to be consumed by any frontend. I used Spring Data JPA for persistence and built a flexible filtering system that lets consumers query posts by tag, author, date range, and status. Role-based access control separates readers, authors, and admins. The OpenAPI documentation is auto-generated from annotations and served interactively via Swagger UI, making it easy to test endpoints directly from the browser. H2 is used for local development; the schema is production-ready for PostgreSQL.",
+      "A clean Rest API for a blogging platform, designed to be consumed by any frontend. I used Spring Data JPA for persistence and built a flexible filtering system that lets consumers query posts by tag, author, date range, and status. Role-based access control separates readers, authors, and admins. The OpenAPI documentation is auto-generated from annotations and served interactively via Swagger UI, making it easy to test endpoints directly from the browser. H2 is used for local development; the schema is production-ready for PostgreSQL.",
     stack: ["Spring Boot", "Spring Data JPA", "OpenAPI", "H2", "Lombok"],
     repo: "https://github.com/alejandrovargas/blog-api",
     status: "Completed",
