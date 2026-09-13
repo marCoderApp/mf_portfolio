@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 const projects = [
   {
     id: "01",
-    name: "AuthService API",
+    name: "HealthCenter API",
     description:
       "Authentication REST API with JWT and refresh tokens. Implemented rate limiting, input validation, and structured error handling following security best practices.",
     longDescription:
@@ -22,7 +22,7 @@ const projects = [
   },
   {
     id: "02",
-    name: "E-Commerce Backend",
+    name: "FraudGuard API - Project",
     description:
       "Online store backend with inventory, order, and payment management. Layered architecture with clear separation of concerns and unit tests written in JUnit 5.",
     longDescription:
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     id: "03",
-    name: "Task Queue Worker",
+    name: "Smart CV Project",
     description:
       "Asynchronous task processing system using message queues. Handles automatic retries, dead letter queues, and monitoring with metrics exposed via Spring Actuator.",
     longDescription:
@@ -60,7 +60,45 @@ const projects = [
   },
   {
     id: "04",
-    name: "Blog API — REST + Docs",
+    name: "TallerTaskPro API - backend",
+    description:
+      "Public blog Api with interactive documentation generated with OpenAPI/Swagger. Includes pagination, filters, and user role management.",
+    longDescription:
+      "A clean Rest API for a blogging platform, designed to be consumed by any frontend. I used Spring Data JPA for persistence and built a flexible filtering system that lets consumers query posts by tag, author, date range, and status. Role-based access control separates readers, authors, and admins. The OpenAPI documentation is auto-generated from annotations and served interactively via Swagger UI, making it easy to test endpoints directly from the browser. H2 is used for local development; the schema is production-ready for PostgreSQL.",
+    stack: ["Spring Boot", "Spring Data JPA", "OpenAPI", "H2", "Lombok"],
+    repo: "https://github.com/alejandrovargas/blog-api",
+    status: "Completed",
+    image: "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=800&h=400&fit=crop&auto=format",
+    imageAlt: "Source code on screen",
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=900&h=500&fit=crop&auto=format", alt: "Java code on monitor" },
+      { url: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=900&h=500&fit=crop&auto=format", alt: "Code on MacBook Pro" },
+      { url: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=900&h=500&fit=crop&auto=format", alt: "Colorful code editor" },
+    ],
+    highlights: ["OpenAPI / Swagger UI", "RBAC with 3 roles", "Flexible query filters", "H2 → PostgreSQL ready"],
+  },
+  {
+    id: "05",
+    name: "GIST - Java Fullstack",
+    description:
+      "Public blog Api with interactive documentation generated with OpenAPI/Swagger. Includes pagination, filters, and user role management.",
+    longDescription:
+      "A clean Rest API for a blogging platform, designed to be consumed by any frontend. I used Spring Data JPA for persistence and built a flexible filtering system that lets consumers query posts by tag, author, date range, and status. Role-based access control separates readers, authors, and admins. The OpenAPI documentation is auto-generated from annotations and served interactively via Swagger UI, making it easy to test endpoints directly from the browser. H2 is used for local development; the schema is production-ready for PostgreSQL.",
+    stack: ["Spring Boot", "Spring Data JPA", "OpenAPI", "H2", "Lombok"],
+    repo: "https://github.com/alejandrovargas/blog-api",
+    status: "Completed",
+    image: "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=800&h=400&fit=crop&auto=format",
+    imageAlt: "Source code on screen",
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=900&h=500&fit=crop&auto=format", alt: "Java code on monitor" },
+      { url: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=900&h=500&fit=crop&auto=format", alt: "Code on MacBook Pro" },
+      { url: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=900&h=500&fit=crop&auto=format", alt: "Colorful code editor" },
+    ],
+    highlights: ["OpenAPI / Swagger UI", "RBAC with 3 roles", "Flexible query filters", "H2 → PostgreSQL ready"],
+  },
+    {
+    id: "06",
+    name: "LibraryManager API - backend",
     description:
       "Public blog Api with interactive documentation generated with OpenAPI/Swagger. Includes pagination, filters, and user role management.",
     longDescription:
